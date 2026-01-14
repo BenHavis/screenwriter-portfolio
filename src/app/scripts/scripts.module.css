@@ -1,0 +1,47 @@
+.page {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 24px;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  width: 100%;
+  max-width: 800px;
+  padding: 48px 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-bottom: 24px;
+}
+
+.script {
+  margin-bottom: 48px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.description {
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.recognition {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 32px 16px;
+  }
+}
