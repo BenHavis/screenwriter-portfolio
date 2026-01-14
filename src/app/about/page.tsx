@@ -10,7 +10,7 @@ export default function About() {
       <main className={styles.main}>
         <Space direction="vertical" size="large" className={styles.content}>
           <Title level={2} className={styles.heading}>
-            About Me:
+            About Ben:
           </Title>
           <Paragraph className={styles.text}>
             I write short-form narrative scripts with a focus on structure,
