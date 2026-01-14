@@ -37,7 +37,8 @@
 
 .recognition {
   font-size: 14px;
-  opacity: 0.75;
+  color: #5a5ae6;
+  font-style: italic;
 }
 
 @media (max-width: 600px) {
